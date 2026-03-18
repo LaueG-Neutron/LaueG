@@ -25,4 +25,4 @@ I am a scientist not a software engineer. I had to "reinvent the wheel" in terms
 
 Finally, the name LaueG was inspired by Ali G, a fictional character created by the comedian Sacha Baron Cohen.
 
-Dr R. O. Piltz, March 2026
+Dr Ross Piltz, March 2026
