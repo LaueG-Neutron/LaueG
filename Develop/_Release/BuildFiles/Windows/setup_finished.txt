@@ -1,0 +1,8 @@
+If no errors occured, LaueG has been successfully installed on your PC.
+
+Use the shorcut "LaueG" on your desktop to start the program.
+
+If you do not see the shortcut it has probably been created on the desktop of your "administrator" account. Just copy it to your normal desktop or modify the shortcut file given in the installation *.zip file.
+
+Let me know if you have any problems.
+Ross Piltz   (rop@ansto.gov.au)
