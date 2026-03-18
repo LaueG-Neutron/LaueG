@@ -5,7 +5,7 @@ In "My Stuff" menu of LaueG (Developer mode), run:
 	"Create Release Code"
 	"Generate Build Folder"
 
-Run "WindowsInstall.iss" in LaueG\_Release\ which will start Inno Setup
+Run "WindowsInstall.iss" in LaueG\_Release\ which will start Inno Setup Compiler 6.0.4
 	Use "Build"->"Compile" to create LaueG_setup_<date>.exe in _Release\Installs\
 
 
