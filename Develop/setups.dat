@@ -1,0 +1,338 @@
+// LaueG Instrument Setups File
+// 
+// type	1	KOALA1/VIVALDI: drum IP, unstable XY, nonzero basecounts, part coverage
+// 	2	IMAGINE: drum IP, stable XY, zero basecounts, part coverage
+// 	3	CYCLOPS: octagonal CCD
+//	4   	KOALA2: drum IP, stable XY, nonzero basecounts, full coverage
+// 	0	dummy values to use before the instrument is known
+// 
+// dummy instrument (always put at the top of the list)
+InstrumSetups(1).host= "laueg_dummy"
+InstrumSetups(1).numxy= [4000,2000]
+InstrumSetups(1).dates= ["1/1/2000","1/1/2100"]
+InstrumSetups(1).instrum= "laueg_dummy"
+InstrumSetups(1).setup= "dummy-values"
+InstrumSetups(1).type= 0
+InstrumSetups(1).detector= "drum Image Plate"
+InstrumSetups(1).display_dspaces= [0.7,99.9]
+InstrumSetups(1).display_wavs= [0.85,99.9]
+InstrumSetups(1).argbox_dwavs=[0.5, 0.85, 99.9]
+InstrumSetups(1).hole= [2000,1000,50]
+InstrumSetups(1).circs= []
+InstrumSetups(1).edges= [  30,3970, 30,1970]
+InstrumSetups(1).rects= []
+InstrumSetups(1).pixcen= [2000,1000]
+InstrumSetups(1).pixsize= [0.2,0.2]
+InstrumSetups(1).pixskew= 0
+InstrumSetups(1).xtaloff= [0,0,0]
+InstrumSetups(1).drumoff= [0,0,0]
+InstrumSetups(1).beamvert= 0
+InstrumSetups(1).drumrad= 159.16
+InstrumSetups(1).crosstalks= [1,1,1]
+// 
+// KOALA before 13/5/2012
+InstrumSetups(2).host= "KOALA"
+InstrumSetups(2).numxy= [4000,2000]
+InstrumSetups(2).dates= ["1/1/2000","13/5/2012"]
+InstrumSetups(2).instrum= "KOALA"
+InstrumSetups(2).setup= "KOALA before 13/5/2012"
+InstrumSetups(2).type= 1
+InstrumSetups(2).detector= "drum Image Plate"
+InstrumSetups(2).display_dspaces= [0.7,99.9]
+InstrumSetups(2).display_wavs= [0.85,99.9]
+InstrumSetups(2).argbox_dwavs=[0.5, 0.85, 99.9]
+InstrumSetups(2).hole= [1997, 995,54]
+InstrumSetups(2).circs= [ 267, 371, 9
+                   478, 200,10
+                   710, 729, 9
+                   738, 701, 8
+                  1720,1365,14]
+InstrumSetups(2).edges=[  20,3975,   25,1970]
+InstrumSetups(2).rects=[2645,2686,  408, 457
+                 2398,2450,  323, 382
+                 2806,2844,  774, 797
+                  584, 646,  740, 762
+                  983,1009, 1409,1492
+                  968, 989, 1492,1533
+                  940, 973, 1534,1582
+                   34,  57,  224, 326
+                 1886,2045,  107, 123
+                 1934,1950,  124, 179
+                 1199,1221,   69,  98
+                 2231,2389, 1287,1304
+                 3075,3110,    6,  46]
+InstrumSetups(2).pixcen= [2010,994]
+InstrumSetups(2).pixsize= [0.2,0.2]
+InstrumSetups(2).pixskew= 0
+InstrumSetups(2).xtaloff= [0,0,0]
+InstrumSetups(2).drumoff= [-0.11,0,0.14]
+InstrumSetups(2).beamvert= 0
+InstrumSetups(2).drumrad= 159.16
+InstrumSetups(2).crosstalks= [2.90,0.90,1.15]
+// 
+// KOALA after 13/5/2012 to 1/1/2014
+InstrumSetups(3).host= "KOALA"
+InstrumSetups(3).numxy= [4000,2000]
+InstrumSetups(3).dates= ["13/5/2012","1/1/2014"]
+InstrumSetups(3).instrum= "KOALA"
+InstrumSetups(3).setup= "KOALA after 13/5/2012"
+InstrumSetups(3).type= 1
+InstrumSetups(3).detector= "drum Image Plate"
+InstrumSetups(3).display_dspaces= [0.7,99.9]
+InstrumSetups(3).display_wavs= [0.85,99.9]
+InstrumSetups(3).argbox_dwavs=[0.5, 0.85, 99.9]
+InstrumSetups(3).hole= [1997,995,54]
+InstrumSetups(3).circs= []
+InstrumSetups(3).edges= [  20,3975, 25,1970]
+InstrumSetups(3).rects= []
+InstrumSetups(3).pixcen= [2010,994]
+InstrumSetups(3).pixsize= [0.2,0.2]
+InstrumSetups(3).pixskew= 0
+InstrumSetups(3).xtaloff= [0,0,0]
+InstrumSetups(3).drumoff= [-0.11,0,0.14]
+InstrumSetups(3).beamvert= 0
+InstrumSetups(3).drumrad= 159.16
+InstrumSetups(3).crosstalks= [2.90,0.90,1.15]
+// 
+// VIVALDI
+InstrumSetups(4).host= "VIVALDI"
+InstrumSetups(4).numxy= [4000,2000]
+InstrumSetups(4).dates= ["1/1/2000","1/1/2100"]
+InstrumSetups(4).instrum= "VIVALDI"
+InstrumSetups(4).setup= "VIVALDI white image plates"
+InstrumSetups(4).type= 1
+InstrumSetups(4).wavlims= [0.7,4.0]
+InstrumSetups(4).detector= "drum Image Plate"
+InstrumSetups(4).display_dspaces= [0.7,99.9]
+InstrumSetups(4).display_wavs= [0.85,99.9]
+InstrumSetups(4).argbox_dwavs=[0.5, 0.85, 99.9]
+InstrumSetups(4).hole= [2502,905,40]
+InstrumSetups(4).circs= []
+InstrumSetups(4).edges= [500,4500,30,1780]
+InstrumSetups(4).rects= [3485,3495,1,1800]
+InstrumSetups(4).pixcen= [2002,988]
+InstrumSetups(4).pixsize= [0.2,0.2]
+InstrumSetups(4).pixskew= 0
+InstrumSetups(4).xtaloff= [0,0,0]
+InstrumSetups(4).drumoff= [0,0,0]
+InstrumSetups(4).beamvert= 0
+InstrumSetups(4).drumrad= 159.16
+InstrumSetups(4).crosstalks= [2.90,0.90,1.15]
+// 
+// IMAGINE, 2.8 - 4.3A
+InstrumSetups(5).host= ""
+InstrumSetups(5).numxy= [5000,1800]
+InstrumSetups(5).dates= ["1/1/2000","1/1/2100"]
+InstrumSetups(5).instrum= "IMAGINE"
+InstrumSetups(5).setup= "IMAGINE 2.8-4.3A"
+InstrumSetups(5).type= 2
+InstrumSetups(5).detector= "drum Image Plate"
+InstrumSetups(5).display_dspaces= [2.0,99.9]
+InstrumSetups(5).display_wavs= [2.8,4.3]
+InstrumSetups(5).argbox_dwavs=[0.5, 2.8, 4.3]
+InstrumSetups(5).hole= [2502,905,40]
+InstrumSetups(5).circs= []
+InstrumSetups(5).edges= [500,4500,30,1780]
+InstrumSetups(5).rects= [3485,3495,1,1800]
+InstrumSetups(5).pixcen= [2500,900]
+InstrumSetups(5).pixsize= [0.25,0.25]
+InstrumSetups(5).pixskew= -0.0008620
+InstrumSetups(5).xtaloff= [0.3879710,0,-1.290399]
+InstrumSetups(5).drumoff= [-0.11,0,0.14]
+InstrumSetups(5).beamvert= 0.0766850
+InstrumSetups(5).drumrad= 200
+InstrumSetups(5).crosstalks= [2.90,0.90,1.15]
+// 
+// CYCLOPS for LaueG
+InstrumSetups(6).host= "CYCLOPS_LAUEG"
+InstrumSetups(6).numxy= [3840,1200]
+InstrumSetups(6).dates= ["1/1/2000","1/1/2100"]
+InstrumSetups(6).instrum= "CYCLOPS"
+InstrumSetups(6).setup= "CYCLOPS for LaueG"
+InstrumSetups(6).type= 3
+InstrumSetups(6).detector= "16 x CCD in octagon"
+InstrumSetups(6).display_dspaces= [0.7,99.9]
+InstrumSetups(6).display_wavs= [0.85,99.9]
+InstrumSetups(6).argbox_dwavs=[0.5, 0.85, 99.9]
+InstrumSetups(6).hole= [2162,601,40]
+InstrumSetups(6).circs= [241,602,43]
+InstrumSetups(6).edges= [15,3825,15,1185]
+InstrumSetups(6).rects= [ 450, 505,    1,1200
+                   930, 985,    1,1200
+                  1410,1465,    1,1200
+                  1890,1945,    1,1200
+                  2370,2425,    1,1200
+                  2880,2905,    1,1200
+                  3360,3385,    1,1200
+                     1 3840,  590, 610]
+InstrumSetups(6).pixcen= [2162,601]
+InstrumSetups(6).pixsize= [0.34,0.34]
+InstrumSetups(6).pixskew= 0
+InstrumSetups(6).xtaloff= [0,0,0]
+InstrumSetups(6).drumoff= [0,0,0]
+InstrumSetups(6).beamvert= 0
+InstrumSetups(6).drumrad= 196
+InstrumSetups(6).crosstalks= [1,1,1]
+// 
+// CYCLOPS raw data
+InstrumSetups(7).host= "CYCLOPS"
+InstrumSetups(7).numxy= [7680,2400]
+InstrumSetups(7).dates= ["1/1/2000","1/1/2100"]
+InstrumSetups(7).instrum= "CYCLOPS"
+InstrumSetups(7).setup= "CYCLOPS raw data (display only)"
+InstrumSetups(7).type= 3
+InstrumSetups(7).detector= "16 x CCD in octagon"
+InstrumSetups(7).display_dspaces= [0.7,99.9]
+InstrumSetups(7).display_wavs= [0.85,99.9]
+InstrumSetups(7).argbox_dwavs=[0.5, 0.85, 99.9]
+InstrumSetups(7).hole= [4324,1201,80]
+InstrumSetups(7).circs= [482,1203,85]
+InstrumSetups(7).edges= [30,7670,30,2370]
+InstrumSetups(7).rects= []
+InstrumSetups(7).pixcen= [4324,1202]
+InstrumSetups(7).pixsize= [0.17,0.17]
+InstrumSetups(7).pixskew= 0
+InstrumSetups(7).xtaloff= [0,0,0]
+InstrumSetups(7).drumoff= [0,0,0]
+InstrumSetups(7).beamvert= 0
+InstrumSetups(7).drumrad= 196
+InstrumSetups(7).crosstalks= [1,1,1]
+// 
+// KOALA 2014-2018, inclusive
+InstrumSetups(8).host= "KOALA"
+InstrumSetups(8).numxy= [4000,2000]
+InstrumSetups(8).dates= ["1/1/2014","31/12/2018"]
+InstrumSetups(8).instrum= "KOALA"
+InstrumSetups(8).setup= "KOALA for 2014 - 2018"
+InstrumSetups(8).type= 1
+InstrumSetups(8).detector= "drum Image Plate"
+InstrumSetups(8).display_dspaces= [0.7,99.9]
+InstrumSetups(8).display_wavs= [0.85,99.9]
+InstrumSetups(8).argbox_dwavs=[0.5, 0.85, 99.9]
+InstrumSetups(8).hole= [2000,983,54]
+InstrumSetups(8).circs= []
+InstrumSetups(8).edges= [  20,3975, 25,1970]
+InstrumSetups(8).rects= []
+InstrumSetups(8).pixcen= [1983,984]
+InstrumSetups(8).pixsize= [0.2,0.2]
+InstrumSetups(8).pixskew= 0
+InstrumSetups(8).xtaloff= [0,0,0]
+InstrumSetups(8).drumoff= [-0.11,0,0.14]
+InstrumSetups(8).beamvert= 0
+InstrumSetups(8).drumrad= 159.16
+InstrumSetups(8).crosstalks= [2.90,0.90,1.15]
+// 
+// KOALA after 1/1/2018 (plus 7 DAC spots for Feb 2019)
+InstrumSetups(9).host= "KOALA"
+InstrumSetups(9).numxy= [4000,2000]
+InstrumSetups(9).dates= ["1/1/2018","1/1/2100"]
+InstrumSetups(9).instrum= "KOALA"
+InstrumSetups(9).setup= "KOALA with Feb 2019 DAC spots"
+InstrumSetups(9).type= 1
+InstrumSetups(9).detector= "drum Image Plate"
+InstrumSetups(9).display_dspaces= [0.7,99.9]
+InstrumSetups(9).display_wavs= [0.85,99.9]
+InstrumSetups(9).argbox_dwavs=[0.5, 0.85, 99.9]
+InstrumSetups(9).hole= [2005,995,54]
+InstrumSetups(9).circs= [1461,  858,  20
+                         2085,  470,  10
+                         3197, 1241,  20
+                         3332,  772,  50
+                         3390, 250,  15
+                         2814,1668,  15
+                          542, 697,  15
+                         1601, 817,  15
+                          736, 169,  15
+                         3356, 568,  15
+                          522,1878,  15]
+InstrumSetups(9).edges= [  30,3970, 30,1940]
+InstrumSetups(9).rects= [1520,1616,  165,205
+                         1870,1960,   80,125]
+InstrumSetups(9).pixcen= [1997,990]
+InstrumSetups(9).pixsize= [0.2,0.2]
+InstrumSetups(9).pixskew= 0
+InstrumSetups(9).xtaloff= [0,0,0]
+InstrumSetups(9).drumoff= [-0.11,0,0.14]
+InstrumSetups(9).beamvert= 0
+InstrumSetups(9).drumrad= 159.16
+InstrumSetups(9).crosstalks= [2.90,0.90,1.15]
+// 
+// KOALA2 2023 until new reversed IP
+InstrumSetups(10).host= "KOALA2"
+InstrumSetups(10).numxy= [5400,2000]
+InstrumSetups(10).dates= ["1/1/2023","1/11/2024"]
+InstrumSetups(10).instrum= "KOALA2"
+InstrumSetups(10).setup= "KOALA2 from 2023"
+InstrumSetups(10).type= 4
+InstrumSetups(10).detector= "drum Image Plate"
+InstrumSetups(10).display_dspaces= [0.7,99.9]
+InstrumSetups(10).display_wavs= [0.85,99.9]
+InstrumSetups(10).argbox_dwavs=[0.5, 0.85, 99.9]
+InstrumSetups(10).hole=[2686,1008,56]
+InstrumSetups(10).circs= [1,1008,50; 5370,1008,50]
+InstrumSetups(10).edges=[40,5375,50,1975]
+InstrumSetups(10).rects=[4317,4337,1,2000]
+InstrumSetups(10).pixcen=[2689,1001]
+InstrumSetups(10).pixsize= [-0.186,0.200]
+InstrumSetups(10).pixskew= 0
+InstrumSetups(10).xtaloff= [0,0,0]
+InstrumSetups(10).drumoff= [0,0,0]
+InstrumSetups(10).beamvert= 0
+InstrumSetups(10).drumrad= 159.16
+InstrumSetups(10).crosstalks= [1.58,0.97,1.05]
+// 
+// KOALA2 with new reversed IP
+InstrumSetups(11).host= "KOALA2"
+InstrumSetups(11).numxy= [5400,2000]
+InstrumSetups(11).dates= ["2/11/2024","31/5/2025"]
+InstrumSetups(11).instrum= "KOALA2"
+InstrumSetups(11).setup= "KOALA2 from 2023"
+InstrumSetups(11).type= 4
+InstrumSetups(11).detector= "drum Image Plate"
+InstrumSetups(11).display_dspaces= [0.7,99.9]
+InstrumSetups(11).display_wavs= [0.85,99.9]
+InstrumSetups(11).argbox_dwavs=[0.5, 0.85, 99.9]
+InstrumSetups(11).hole=[2686,1008,56]
+InstrumSetups(11).circs= [1,1008,50; 5370,1008,50]
+InstrumSetups(11).edges=[40,5375,50,1975]
+InstrumSetups(11).rects=[1620 1640 1 2000; 2700 2730 1 2000]
+InstrumSetups(11).pixcen=[2689,1001]
+InstrumSetups(11).pixsize= [-0.186,0.200]
+InstrumSetups(11).pixskew= 0
+InstrumSetups(11).xtaloff= [0,0,0]
+InstrumSetups(11).drumoff= [0,0,0]
+InstrumSetups(11).beamvert= 0
+InstrumSetups(11).drumrad= 159.16
+InstrumSetups(11).crosstalks= [1.58,0.97,1.05]
+// 
+// KOALA2 June 2025 back to un-reversed IP, 500 pixel left/right edges
+InstrumSetups(12).host= "KOALA2"
+InstrumSetups(12).numxy= [5400,2000]
+InstrumSetups(12).dates= ["1/6/2025","1/11/2999"]
+InstrumSetups(12).instrum= "KOALA2"
+InstrumSetups(12).setup= "KOALA2 from 2023"
+InstrumSetups(12).type= 4
+InstrumSetups(12).detector= "drum Image Plate"
+InstrumSetups(12).display_dspaces= [0.7,99.9]
+InstrumSetups(12).display_wavs= [0.85,99.9]
+InstrumSetups(12).argbox_dwavs=[0.5, 0.85, 99.9]
+InstrumSetups(12).hole=[2686,1008,56]
+InstrumSetups(12).circs= [1,1008,50; 5370,1008,50]
+InstrumSetups(12).edges=[500,4900,50,1975]
+InstrumSetups(12).rects=[4317,4337,1,2000]
+InstrumSetups(12).pixcen=[2689,1001]
+InstrumSetups(12).pixsize= [-0.186,0.200]
+InstrumSetups(12).pixskew= 0
+InstrumSetups(12).xtaloff= [0,0,0]
+InstrumSetups(12).drumoff= [0,0,0]
+InstrumSetups(12).beamvert= 0
+InstrumSetups(12).drumrad= 159.16
+InstrumSetups(12).crosstalks= [1.58,0.97,1.05]
+
+
+
+
+
+
+
+
