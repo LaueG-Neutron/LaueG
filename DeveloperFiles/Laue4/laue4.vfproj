@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VisualStudioProject ProjectCreator="Intel Fortran" Keyword="Console Application" Version="11.0" ProjectIdGuid="{1384FE1C-D528-4A30-8C8B-0909B7954CD6}">
+	<Platforms>
+		<Platform Name="Win32"/></Platforms>
+	<Configurations>
+		<Configuration Name="Debug|Win32">
+				<Tool Name="VFFortranCompilerTool" SuppressStartupBanner="true" DebugInformationFormat="debugLineInfoOnly" Optimization="optimizeDisabled" FixedFormLineLength="fixedLength132" WarnUnusedVariables="true" WarnTruncateSource="true" WarnUnalignedData="false" WarnInterfaces="true" RealKIND="realKIND8" FloatingPointExceptionHandling="fpe0" FloatingPointModel="strict" FloatingPointStackCheck="true" FloatingPointSpeculation="fpSpeculationOff" Traceback="true" OutputCarriageControl="outputCCFortran" NullPointerCheck="true" BoundsCheck="true" UninitializedVariablesCheck="true" DescriptorDataTypeCheck="true" ArgTempCreatedCheck="true" RuntimeLibrary="rtMultiThreadedDebug" UseMkl="mklSequential" Interfaces="true"/>
+				<Tool Name="VFLinkerTool" OutputFile="$(OutDir)\$(ProjectName)_exe.exe" LinkIncremental="linkIncrementalNo" SuppressStartupBanner="true" GenerateDebugInformation="true" SubSystem="subSystemConsole"/>
+				<Tool Name="VFResourceCompilerTool"/>
+				<Tool Name="VFMidlTool" SuppressStartupBanner="true"/>
+				<Tool Name="VFCustomBuildTool"/>
+				<Tool Name="VFPreLinkEventTool"/>
+				<Tool Name="VFPreBuildEventTool"/>
+				<Tool Name="VFPostBuildEventTool"/>
+				<Tool Name="VFManifestTool" SuppressStartupBanner="true"/></Configuration>
+		<Configuration Name="Release|Win32">
+				<Tool Name="VFFortranCompilerTool" SuppressStartupBanner="true" FixedFormLineLength="fixedLength132" WarnUnalignedData="false" RealKIND="realKIND8" Traceback="true" OutputCarriageControl="outputCCFortran" UseMkl="mklSequential"/>
+				<Tool Name="VFLinkerTool" OutputFile="$(OutDir)\laue4_exe.exe" LinkIncremental="linkIncrementalNo" SuppressStartupBanner="true" SubSystem="subSystemConsole"/>
+				<Tool Name="VFResourceCompilerTool"/>
+				<Tool Name="VFMidlTool" SuppressStartupBanner="true"/>
+				<Tool Name="VFCustomBuildTool"/>
+				<Tool Name="VFPreLinkEventTool"/>
+				<Tool Name="VFPreBuildEventTool"/>
+				<Tool Name="VFPostBuildEventTool"/>
+				<Tool Name="VFManifestTool" SuppressStartupBanner="true"/></Configuration></Configurations>
+	<Files>
+		<Filter Name="Header Files" Filter="fi;fd"/>
+		<Filter Name="Resource Files" Filter="rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe"/>
+		<Filter Name="Source Files" Filter="f90;for;f;fpp;ftn;def;odl;idl">
+		<File RelativePath=".\calc_counts.for"/>
+		<File RelativePath=".\correct_data.for"/>
+		<File RelativePath=".\harm_corr.for"/>
+		<File RelativePath=".\isig_adjust.for"/>
+		<File RelativePath=".\laue4.for"/>
+		<File RelativePath=".\lsq.for"/>
+		<File RelativePath=".\misc.for"/>
+		<File RelativePath=".\nlscon.for">
+			<FileConfiguration Name="Debug|Win32">
+				<Tool Name="VFFortranCompilerTool" WarnUnusedVariables="false"/></FileConfiguration></File>
+		<File RelativePath=".\options.for"/>
+		<File RelativePath=".\output_results.for"/>
+		<File RelativePath=".\pars.for"/>
+		<File RelativePath=".\prep_data.for"/>
+		<File RelativePath=".\read_files.for"/>
+		<File RelativePath=".\refine_data.for"/>
+		<File RelativePath=".\reject_debug.for"/>
+		<File RelativePath=".\stats.for"/>
+		<File RelativePath=".\symm.for"/>
+		<File RelativePath=".\tagsort.for"/>
+		<File RelativePath=".\tiff_read_edit.for"/>
+		<File RelativePath=".\wav_non_param.for"/></Filter></Files>
+	<Globals/></VisualStudioProject>
