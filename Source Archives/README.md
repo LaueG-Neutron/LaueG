@@ -1,1 +1,1 @@
-The last few years of source code made by zipping the folder C:\DevApps\LaueG\_Release\Source as part of the "release" process.
+The last few years of source code made by zipping the folder C:\DevApps\LaueG\_Release\Source which is created as part of the "release" process.
