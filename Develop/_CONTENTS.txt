@@ -41,7 +41,7 @@ An earlier compiled version of argonne_boxes.exe for Garry McIntyre
 Startup SCILAB script that loads the developer or release scripts
 LaueG.sce
 
-Developer SCILAB scripts also present in the release version
+Developer SCILAB scripts cleaned and concatenated in the release version
 	BatchMode.sce
 	CalcSpots.sce
 	DrawEllipses.sce
@@ -60,7 +60,7 @@ Developer SCILAB scripts also present in the release version
 	RunConsole.sce
 	SingleImageMenus.sce
 
-SCILAB script only present in developer mode
+SCILAB script containing functions only present in developer mode
 	MyVersion.sce
 
 Test SCILAB scripts not intended for release
@@ -71,6 +71,6 @@ Misc. Files
 	run_pause.bat		CMD batch file used for running some Fortran executables
 	setups.dat			Contains list of setup parameters for various instruments
 	wavs.lis			List of the names of wavelength files available 
-	koala_wav.dat		Koala instrument
-	vivaldi_wav.dat		Vivaldi instrument
-	imagine_wav.dat		Imagine instrument
+	koala_wav.dat		Koala instrument wavelength file
+	vivaldi_wav.dat		Vivaldi instrument wavelength file
+	imagine_wav.dat		Imagine instrument wavelength file
