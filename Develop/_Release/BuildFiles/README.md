@@ -1,0 +1,1 @@
+I zipped the files/folders and removed the originals
