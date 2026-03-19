@@ -4,6 +4,7 @@ In "My Stuff" menu of LaueG (Developer mode), run:
 	"Save Source"
 	"Create Release Code"
 	"Generate Build Folder"
+This process creates or copies all files needed for an installation to _Release\BuildFiles\
 
 Run "WindowsInstall.iss" in LaueG\_Release\ which will start Inno Setup Compiler 6.0.4
 	Use "Build"->"Compile" to create LaueG_setup_<date>.exe in _Release\Installs\
@@ -11,21 +12,20 @@ Run "WindowsInstall.iss" in LaueG\_Release\ which will start Inno Setup Compiler
 
 ========================
 
-Folder Contents:
+Contents of _Release folder:
 
 	Source\			Fortran & Scilab source files, XML and some files copied from ..\ and .\
-	WindowsBuild\		Various misc. files needed to make an installation
-	BuildFiles\		All files needed to make installations for Windows/Mac/Linux
-	Installs\		Installation executable for Windows made using Inno Setup
+	WindowsBuild\	Various misc. files needed to make an installation
+	BuildFiles\		All files needed to make the installation
+	Installs\		Installation executable for Windows created using Inno Setup
 
-	_Notes.txt		This file
+	_Notes.txt			This file
 	SaveSource.bat		Copies source files from ..\ to Source\
 	MakeBuilds.bat		Makes a build in BuildFiles\ from ..\, Source\ & WindowsBuild\
 	WindowsInstall.iss	Uses Inno Setup to make a Windows installation file from BuildFiles\
+The two *.bat files are used by the LaueG process described in the previous section.
 
-
-NOTE: I haven't made a Mac/Linux installation for a long time. This consisted of making ZIP files
-	then loading them onto a Mac/Linux machine and then recompiling the fortran and creating the
+NOTE: I haven't made a Mac/Linux installation for a long time. This consisted of making ZIP
+	files, loading them onto a Mac/Linux machine, and recompiling the fortran and creating the
 	installation files. As it has been so long I expect you would run into several bugs that
-	have been creating along the way. I don't think it is worth my effort as emulating a Windows
-	machine is a better way to go.
+	have been creating along the way. Emulating a Windows machine is a better way to go.
