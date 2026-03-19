@@ -27,5 +27,5 @@ Folder Contents:
 NOTE: I haven't made a Mac/Linux installation for a long time. This consisted of making ZIP files
 	then loading them onto a Mac/Linux machine and then recompiling the fortran and creating the
 	installation files. As it has been so long I expect you would run into several bugs that
-	have been creating along the way. I don't think it is worth my effort, and I believe that
-	emulating a Windows machine is a better way to go.
+	have been creating along the way. I don't think it is worth my effort as emulating a Windows
+	machine is a better way to go.
