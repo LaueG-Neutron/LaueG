@@ -40,7 +40,7 @@ An earlier compiled version of argonne_boxes.exe for Garry McIntyre
 Startup SCILAB script that loads the developer or release scripts
 LaueG.sce
 
-Developer SCILAB scripts cleaned and concatenated in the release version
+Developer SCILAB scripts (also cleaned and concatenated in the release version)
 	BatchMode.sce
 	CalcSpots.sce
 	DrawEllipses.sce
