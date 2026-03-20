@@ -1,4 +1,4 @@
-Folder used in creating an installation release
+Folder used in creating a "release" installation
 	_Release			
 
 Folders contain MS VS Fortran projects for executables run by SCILAB
