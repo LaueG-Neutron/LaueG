@@ -1,0 +1,8 @@
+My patches to SCILAB:
+
+
+org.scilab.modules.gui.jar in events\
+	ScilabEventListener.java		fixed mouse & keyboard interactions
+
+org.scilab.modules.renderer.jar in JoGLView\interaction\
+	DragZoomRotateInteraction.java		removed rotate axes on right-drag
