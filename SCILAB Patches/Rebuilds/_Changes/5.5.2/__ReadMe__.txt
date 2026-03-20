@@ -43,11 +43,11 @@ to:
         <pathelement location="${thirdparty.dir}/jhall.jar"/>
         <pathelement location="${modules.dir}/scirenderer/jar/scirenderer.jar"/>
         <pathelement location="${thirdparty.dir}/jlatexmath-1.0.3.jar"/>
-                    <attribute name="Specification-Version" value="scilab-5.5.1 for LaueG"/>
+                    <attribute name="Specification-Version" value="scilab-5.5.2 for LaueG"/>
 or the equivalent file names for new file versions.
 
 
-Copy C:\Program Files\scilab-5.5.1\modules to D:\Work\Scilab\Rebuilds\modules
+Copy C:\Program Files\scilab-5.5.2\modules to D:\Work\Scilab\Rebuilds\modules
 
 
 Download and unzip SCILAB prerequirements files
