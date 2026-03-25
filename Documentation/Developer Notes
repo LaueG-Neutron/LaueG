@@ -18,8 +18,8 @@ The Developer version also contains the full source code and commented versions 
 	and with "Start in"
 	  C:\DevApps\LaueG\
 	You can also change the icon for this link to
-	  %SystemDrive%\Program Files\scilab-5.5.2\laueg\laueg_icon.ico
+	  C:\DevApps\LaueG\_Release\BuildFiles\Windows\laueg_icon.ico
 
-5) Install Intel Fortran running under MS Visual Studio
+5) Install Intel Fortran running under MS Visual Studio, to change Fortran executables
 
-6) Install Inno Setup
+6) Install Inno Setup, to build *.exe installation files
