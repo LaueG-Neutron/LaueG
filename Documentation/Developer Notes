@@ -1,1 +1,11 @@
 ====== Installing the Developer version of LaueG ======
+
+LaueG exists two versions, a Release version for software users and a Developer version for me, or now possibly you.
+
+If you just want to run the software, install the Release version as described in "Install Notes".
+
+If you want to change the code, then you have to install the Release version as described below.
+
+Copy the 
+
+Make the folder C:\DevApps\LaueG
