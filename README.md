@@ -13,7 +13,7 @@ Literature:
   R. O. Piltz, J. Appl. Cryst. (2018). 51, 635-645.
 "LaueG software for displaying and processing neutron Laue images"
   R. O. Piltz, J. Appl. Cryst. (2018). 51, 963-965.
-The Laue spot integration software uses a highly-modified version of ARGONNE_BOXES:
+The Laue spot integration software is a highly-modified version of ARGONNE_BOXES:
   Wilkinson, C., Khamis, H. W., Stansfield, R. F. D. & McIntyre, G. J. (1988). J. Appl. Cryst. 21, 471–478.
 NLSCON is used as the nonlinear least-squares solver.
   "Newton Methods for Nonlinear Problems: Affine Invariance and Adaptive Algorithms" ,
