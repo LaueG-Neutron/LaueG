@@ -1,6 +1,6 @@
-LaueG exists in two versions, "Release" for software users and "Developer" for me and possibly you
-The two versions are identical in functionality except the Developer version can build new Release installations
-The Release version also contains the full source code and commented versions of the SCILAB script files
+LaueG exists in two versions, "Release" for software users and "Developer" for me.
+The versions are identical in functionality except the Developer version can build new Release installations.
+The Release version also contains the full source code and commented versions of the SCILAB script files.
 
 ====== Installing the Developer version of LaueG ======
 
@@ -8,14 +8,14 @@ The Release version also contains the full source code and commented versions of
 	Download scilab-5.5.2_x64.exe from www.scilab.org/download/previous-versions/
 	SCILAB must be v5.5.2
 
-2) Copy the contents of the Develop\ folder of this git to the folder C:\DevApps\LaueG
-	If you don't use this folder then you have to edit laueg.sce and change the following link
+2) Copy the contents of the Develop folder of this git to the folder C:\DevApps\LaueG
+	If you don't use this folder then you have to edit laueg.sce and change the link below
 
-3) Create a link with the Target:
+3)	Check that SCILAB was installed to %SystemDrive%\Program Files, if not change the following as required
+
+4) Create a link with the "Target"
 	  %SystemDrive%\Program Files\scilab-5.5.2\bin\WScilex.exe -nb -f "C:\DevApps\LaueG\laueg.sce"
-	and with Start in:
+	and with "Start in"
 	  C:\DevApps\LaueG\
 	You can also change the icon for this link to
 	  %SystemDrive%\Program Files\scilab-5.5.2\laueg\laueg_icon.ico
-
-3)	Check that SCILAB was installed to %SystemDrive%\Program Files, if not change the following as required
