@@ -1,5 +1,3 @@
-This file was made from "Source\BuildFiles\_Notes.txt" in the "Install Archives/Source_18Mar2026.7z" file of this Git.
-
 For the following to work you have to setup a Developer version of LaueG on your PC.
 
 ======== Building a new installation *.exe file for LaueG ========
@@ -9,5 +7,7 @@ In the "My Stuff" menu of LaueG (Developer mode), run:
 	"Create Release Code"
 	"Generate Build Folder"
 
-Run "WindowsInstall.iss" in LaueG\_Release\ which will start Inno Setup
-	Use "Build"->"Compile" to create LaueG_setup_<date>.exe in _Release\Installs\
+Run "WindowsInstall.iss" in C:\DevApps\LaueG\_Release\ which will start Inno Setup
+	Use "Build"->"Compile"
+
+The setup file LaueG_setup_<date>.exe is created in C:\DevApps\LaueG\_Release\Installs\
