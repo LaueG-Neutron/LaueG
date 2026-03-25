@@ -20,7 +20,7 @@ NLSCON is used as the nonlinear least-squares solver:
   Deuflhard, P. (2004), Heidelberg: Springer-Verlag.
 ```
 
-# =
+---
 
 I am a scientist not a software engineer. I had to "reinvent the wheel" in terms of managing this package as I did not know about such things at the time. This software was written out of necessity and has been under continuous development since its inception. I know that certain functions have not been completed and do not work properly. I did my best!
 
