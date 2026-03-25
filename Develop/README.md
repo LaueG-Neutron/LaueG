@@ -15,5 +15,4 @@ In particular, the _Release\ folder is used to create new installations and cont
 	MakeBuilds.bat		Makes a build in BuildFiles\ from ..\, Source\ & WindowsBuild\
 	WindowsInstall.iss	Uses Inno Setup to make a Windows installation file from BuildFiles\
 
-The *.bat files are meant to be run within LaueG using the "My Version" commands
-```
+The *.bat files are meant to be run within LaueG
