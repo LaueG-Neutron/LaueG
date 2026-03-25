@@ -1,4 +1,4 @@
-LaueG exists two versions, a Release version for software users and a Developer version for me, or now possibly you.
+LaueG exists in two versions, "Release" for software users and "Developer" for me and possibly you.
 The two versions are identical in functionality except the Developer version can build new Release installations.
 The Release version also contains the full source code and commented versions of the SCILAB script files.
 
