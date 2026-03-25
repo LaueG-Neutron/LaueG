@@ -5,6 +5,10 @@ As stated in the top folder, I managed this project in my own strange way.
 To install a LaueG setup:
 
 
+Build Notes
+Developer Notes
+Install Notes
+
 
 
 C:\DevApps\LaueG
