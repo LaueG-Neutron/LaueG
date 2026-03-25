@@ -8,7 +8,7 @@ To install a LaueG setup:
 Build Notes
 Developer Notes
 Install Notes
-
+LaueG_Manual.pdf
 
 
 C:\DevApps\LaueG
