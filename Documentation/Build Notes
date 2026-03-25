@@ -12,5 +12,4 @@ Go to C:\DevApps\LaueG\_Release\ and run WindowsInstall.iss which will start Inn
 Within Inno Setup, run Compile from the Build menu
 
 The setup file LaueG_setup_<date>.exe will be created in C:\DevApps\LaueG\_Release\Installs\
-
 As a bonus, all source files are copied to C:\DevApps\LaueG\_Release\Source\
