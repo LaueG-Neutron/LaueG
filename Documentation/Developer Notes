@@ -19,3 +19,7 @@ The Release version also contains the full source code and commented versions of
 	  C:\DevApps\LaueG\
 	You can also change the icon for this link to
 	  %SystemDrive%\Program Files\scilab-5.5.2\laueg\laueg_icon.ico
+
+5) To change the Fortran executables you need Intel Fortran running under MS Visual Studio
+
+6) To make installation *.exe files you need to install Inno Setup
