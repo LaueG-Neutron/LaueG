@@ -11,7 +11,7 @@ The Developer version also contains the full source code and commented versions 
 2) Copy the contents of the Develop folder of this git to the folder C:\DevApps\LaueG
 	If you don't use this folder then you have to edit laueg.sce and change the link below
 
-3)	Check that SCILAB was installed to %SystemDrive%\Program Files, if not change the following as required
+3)	Check that SCILAB was installed to %SystemDrive%\Program Files, if not change the following
 
 4) Create a link with the "Target"
 	  %SystemDrive%\Program Files\scilab-5.5.2\bin\WScilex.exe -nb -f "C:\DevApps\LaueG\laueg.sce"
