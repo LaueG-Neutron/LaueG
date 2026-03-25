@@ -1,18 +1,6 @@
 I zipped the files/folders and removed the originals
 
-
-The last few years of source code
-
-Made by zipping the folder C:\DevApps\LaueG\_Release\Source\ in the Developer version of LaueG
-
-
-The archive contents are for the folder C:\DevApps\LaueG\_Release\Source
-
-The setup for the Developer version of LaueG 
-
-
-The zip files also contains the BuildFiles\ subfolder used in the creation of installation executables
-
+The BuildFiles\ subfolder is used in the creation of installation executables
 
 Folder Contents of Source\BuildFiles\*.7z files:
 
