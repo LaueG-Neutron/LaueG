@@ -1,9 +1,8 @@
-====== Installing the Release version of LaueG ======
+====== Installing LaueG ======
 
 1) Install SCILAB 5.5.2
-	You must install SCILAB before you install LaueG.
-	Do not use the latest version of SCILAB. Use the 64-bit version of
-	SCILAB 5.5.2 included in this zip file.
+	Download scilab-5.5.2_x64.exe from www.scilab.org/download/previous-versions/
+	You must install SCILAB before you install LaueG, and it must be v5.5.2
 
 2) Installing LaueG
 	Run the setup file "LaueG_setup_<date>.exe"
@@ -19,9 +18,12 @@ should then show its contents correctly. This should only happen very rarely.
 
 LaueTiff is a useful utility where you can right-click on an image file (*.tif)
 and it will display the Comments and other useful experimental information for
-the image. It is highly recommended.
+the image.
 
-To install, extract LaueTiff.zip and follow the instructions in the ReadMe file.
+1) Copy LaueTiff.exe to C:\windows\system32\
+	If you use a different folder, you have to edit the following registry file
+
+2) Run the registry file LaueTiffRightClick.reg
 
 ================================================
 
