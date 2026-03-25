@@ -1,11 +1,17 @@
+LaueG exists two versions, a Release version for software users and a Developer version for me, or now possibly you.
+The two versions are identical in functionality except the Developer version can build new Release installations.
+The Release version also contains the full source code and commented versions of the SCILAB script files.
+
 ====== Installing the Developer version of LaueG ======
 
-LaueG exists two versions, a Release version for software users and a Developer version for me, or now possibly you.
+Install SCILAB version 5.5.2 from www.scilab.org/news/scilab-552-release or ????
 
-If you just want to run the software, install the Release version as described in "Install Notes".
+Copy the contents of the Develop\ folder of this git to the folder C:\DevApps\LaueG.
+If you don't use this folder then you have to edit laueg.sce and change the following link.
 
-If you want to change the code, then you have to install the Release version as described below.
-
-Copy the 
-
-Make the folder C:\DevApps\LaueG
+Create a link using the Target:
+  %SystemDrive%\Program Files\scilab-5.5.2\bin\WScilex.exe -nb -f "C:\DevApps\LaueG\laueg.sce"
+and Start in:
+  C:\DevApps\LaueG\
+You can also change the icon for this link to
+  %SystemDrive%\Program Files\scilab-5.5.2\laueg\laueg_icon.ico
