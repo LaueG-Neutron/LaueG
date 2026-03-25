@@ -20,6 +20,6 @@ The Developer version also contains the full source code and commented versions 
 	You can also change the icon for this link to
 	  C:\DevApps\LaueG\_Release\BuildFiles\Windows\laueg_icon.ico
 
-5) Install Intel Fortran running under MS Visual Studio, to change Fortran executables
+5) Install Intel Fortran running under MS Visual Studio, to create Fortran executables
 
 6) Install Inno Setup, to build *.exe installation files
