@@ -1,5 +1,7 @@
 This file was made from "Source\BuildFiles\_Notes.txt" in the "Install Archives/Source_18Mar2026.7z" file of this Git.
 
+For the following to work you have to setup a Developer version of LaueG on your PC.
+
 ======== Building a new installation *.exe file for LaueG ========
 
 In the "My Stuff" menu of LaueG (Developer mode), run:
@@ -9,19 +11,3 @@ In the "My Stuff" menu of LaueG (Developer mode), run:
 
 Run "WindowsInstall.iss" in LaueG\_Release\ which will start Inno Setup
 	Use "Build"->"Compile" to create LaueG_setup_<date>.exe in _Release\Installs\
-
-========================
-
-Folder Contents of Source\BuildFiles\*.7z files:
-
-	Source\				Fortran & Scilab source files, XML and some files copied from ..\ and .\
-	WindowsBuild\		Various misc. files needed to make an installation
-	BuildFiles\			All files needed to make installations for Windows/Mac/Linux
-	Installs\			Installation executable for Windows made using Inno Setup
-
-	_Notes.txt			This file
-	SaveSource.bat		Copies source files from ..\ to Source\
-	MakeBuilds.bat		Makes a build in BuildFiles\ from ..\, Source\ & WindowsBuild\
-	WindowsInstall.iss	Uses Inno Setup to make a Windows installation file from BuildFiles\
-
-The *.bat files are meant to be run within LaueG using the "My Version" commands
