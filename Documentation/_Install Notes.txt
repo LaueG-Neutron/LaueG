@@ -1,3 +1,6 @@
+This file is "Source\BuildFiles\_Notes.txt" from "Source_18Mar2026.7z" in the "_install_archives/" folder.
+
+
 ======== Making an installation *.exe file for LaueG ========
 
 In "My Stuff" menu of LaueG (Developer mode), run:
