@@ -8,12 +8,14 @@ The Release version also contains the full source code and commented versions of
 	Download scilab-5.5.2_x64.exe from www.scilab.org/download/previous-versions/
 	SCILAB must be v5.5.2
 
-2) Copy the contents of the Develop\ folder of this git to the folder C:\DevApps\LaueG.
-	If you don't use this folder then you have to edit laueg.sce and change the following link.
+2) Copy the contents of the Develop\ folder of this git to the folder C:\DevApps\LaueG
+	If you don't use this folder then you have to edit laueg.sce and change the following link
 
-3) Create a link using the Target:
+3) Create a link with the Target:
 	  %SystemDrive%\Program Files\scilab-5.5.2\bin\WScilex.exe -nb -f "C:\DevApps\LaueG\laueg.sce"
-	and Start in:
+	and with Start in:
 	  C:\DevApps\LaueG\
 	You can also change the icon for this link to
 	  %SystemDrive%\Program Files\scilab-5.5.2\laueg\laueg_icon.ico
+
+3)	Check that SCILAB was installed to %SystemDrive%\Program Files, if not change the following as required
