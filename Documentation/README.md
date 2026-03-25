@@ -1,6 +1,6 @@
 ```
 Install Notes
-  If all you want is to analyse data, then this is all you need
+  This is all you need if you only want to analyse data
 
 LaueG_Manual.pdf
   A PDF version of the manual contained within LaueG
@@ -9,5 +9,5 @@ LaueG_Manual.pdf
 Developer Notes
   Load the full source code for developers, or the curious
 
-Build Notes:
+Build Notes
   How to build a new installation file for release
