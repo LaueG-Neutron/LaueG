@@ -1,3 +1,5 @@
+To install LaueG to analyse Laue data, see Install
+
 As stated in the top folder, I managed this project in my own strange way.
 
 To install a LaueG setup:
