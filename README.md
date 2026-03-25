@@ -11,8 +11,10 @@ The GUI and graphical display of the data, along with some minor calculations, a
 Literature:
 "Accurate data processing for neutron Laue diffractometers" R. O. Piltz, J. Appl. Cryst. (2018). 51, 635-645.
 "LaueG software for displaying and processing neutron Laue images" R. O. Piltz, J. Appl. Cryst. (2018). 51, 963-965.
-The Laue spot integration software uses a highly-modified version of ARGONNE_BOXES. Wilkinson, C., Khamis, H. W., Stansfield, R. F. D. & McIntyre, G. J. (1988). J. Appl. Cryst. 21, 471–478.
-NLSCON is used as the nonlinear least-squares solver. Deuflhard, P. (2004), "Newton Methods for Nonlinear Problems: Affine Invariance and Adaptive Algorithms" Heidelberg: Springer-Verlag.
+The Laue spot integration software uses a highly-modified version of ARGONNE_BOXES:
+  Wilkinson, C., Khamis, H. W., Stansfield, R. F. D. & McIntyre, G. J. (1988). J. Appl. Cryst. 21, 471–478.
+NLSCON is used as the nonlinear least-squares solver.
+  Deuflhard, P. (2004), "Newton Methods for Nonlinear Problems: Affine Invariance and Adaptive Algorithms" Heidelberg: Springer-Verlag.
 ```
 A user manual for the LaueG suite is included in the documentation section of this archive.
 
