@@ -1,4 +1,4 @@
-====== Installing LaueG (Windows only) ======
+====== Installing LaueG ======
 
 1) Install SCILAB 5.5.2
 	You must install SCILAB before you install LaueG.
@@ -15,7 +15,7 @@ First time useage can be very slow, tens of seconds. If a popup window appears
 that is completely empty, try randomly clicking on the window. The window
 should then show its contents correctly. This should only happen very rarely.
 
-====== Installing LaueTiff (Windows only) ======
+====== Installing LaueTiff ======
 
 LaueTiff is a useful utility where you can right-click on an image file (*.tif)
 and it will display the Comments and other useful experimental information for
