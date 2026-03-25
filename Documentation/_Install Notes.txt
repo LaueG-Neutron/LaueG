@@ -1,9 +1,8 @@
-This file is "Source\BuildFiles\_Notes.txt" from "Source_18Mar2026.7z" in the "_install_archives/" folder.
-
+This file is "Source\BuildFiles\_Notes.txt" from "Source_18Mar2026.7z" in the "Install Archives/" folder of this Git.
 
 ======== Making an installation *.exe file for LaueG ========
 
-In "My Stuff" menu of LaueG (Developer mode), run:
+In the "My Stuff" menu of LaueG (Developer mode), run:
 	"Save Source"
 	"Create Release Code"
 	"Generate Build Folder"
