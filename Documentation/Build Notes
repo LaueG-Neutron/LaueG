@@ -1,11 +1,14 @@
-======== Building a new installation *.exe file for LaueG ========
+======== Building a new installation *.exe file ========
 
-In the "My Stuff" menu of LaueG (Developer mode), run:
+This only works if you setup the Developer version of LaueG
+
+In the "My Stuff" menu of LaueG run:
 	"Save Source"
 	"Create Release Code"
 	"Generate Build Folder"
 
-Run "WindowsInstall.iss" in C:\DevApps\LaueG\_Release\ which will start Inno Setup
-	Use "Build"->"Compile"
+Go to C:\DevApps\LaueG\_Release\ and run WindowsInstall.iss which will start Inno Setup
 
-The setup file LaueG_setup_<date>.exe is created in C:\DevApps\LaueG\_Release\Installs\
+Within Inno Setup, run Compile from the Build menu
+
+The setup file LaueG_setup_<date>.exe will be created in C:\DevApps\LaueG\_Release\Installs\
